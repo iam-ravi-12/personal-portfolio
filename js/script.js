@@ -193,6 +193,20 @@
   });
 
   /*================================================================= 
+        Magic Mouse 
+    ==================================================================*/
+
+  var MagicMouseOptions = {
+    cursorOuter: "circle-basic",
+    hoverEffect: "circle-move",
+    hoverItemMove: false,
+    defaultCursor: false,
+    outerWidth: 30,
+    outerHeight: 30,
+  };
+  magicMouse(MagicMouseOptions);
+
+  /*================================================================= 
         Partner carousel
     ==================================================================*/
   const swiper2 = new Swiper(".partnerCarousel", {
