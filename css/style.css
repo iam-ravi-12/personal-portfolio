@@ -1,14 +1,3 @@
-/**
- * Template Name: Fungi
- * Template Url: http://ethemestudio.com/demo/fungi
- * Author: eThemeStudio
- * Author Url: http://procodr.com
- * Version: 2.2.4
- * Initial Release: November 22, 2022
- * Last Update: January 16, 2023
- * 
- */
-
 /* 
 
 ====================
@@ -309,6 +298,21 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #b0aac0;
+}
+
+/* overwriting magic mouse #fd562a */
+
+body #magicMouseCursor {
+    border: 1px solid #44cbe1 !important;
+}
+
+body #magicPointer {
+    background: #44cbe1 !important;
+    z-index: 1000;
+}
+
+body #magicPointer.is-hover {
+    background: #44cbe1 !important;
 }
 
 /* Typography */
